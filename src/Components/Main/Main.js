@@ -4,6 +4,7 @@ import logo from '../../logo.svg';
 
 // Components
 import Clock from '../Clock';
+import Links from '../Links';
 
 class Main extends React.Component {
   constructor() {
@@ -47,6 +48,7 @@ class Main extends React.Component {
         </p>
 
         <Clock />
+        <Links />
       </div>
     );
   }
